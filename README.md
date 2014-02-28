@@ -21,7 +21,7 @@ CodeIgniter Slug Generator Library
     $title = 'Page Title which is going to be a slug';
     $slug = $this->slugify->slug_unique($title, 'posts_table', 'slug');
     
-It generates a new unique slug. If same slug exists it appends a numeric value to slug. Ex:
+It generates a new unique slug. If same slug exists, it will append a numeric value to the slug. Ex:
 
 * about-us
 * about-us-1
