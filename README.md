@@ -39,5 +39,3 @@ It generates a new unique slug. If same slug exists, it will append a numeric va
     $slug = $this->slugify->slug_unique($title, 'posts_table', 'slug', $post_id);
     
 It generates a new unique slug. It excludes from self row...
-
-![Counter](https://webfikirleri.com/counter?url=https://github.com/WebFikirleri/CI-Slugify)
